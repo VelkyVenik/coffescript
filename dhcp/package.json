@@ -2,14 +2,20 @@
   "name": "dhcp",
   "version": "0.0.1",
   "description": "DHCP in CoffeeScript",
-  "main": "test_client.js",
+  "author": "venik <venik@venik.org>",
+  "main": "test_client.coffe",
   "dependencies": {
     "dhcpjs": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sudo coffee test_client.coffee"
+
   },
-  "author": "venik",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/VelkyVenik/coffescript"
+  }
 }
