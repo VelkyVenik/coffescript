@@ -9,3 +9,7 @@ node_modules
 
 # CoffeeScript - ignore generated JavaScript files
 *.js
+
+
+# Mac OS
+.DS_Store
