@@ -1,0 +1,25 @@
+{
+  "name": "coffeescript",
+  "version": "0.0.1",
+  "description": "CoffeeScript Examples",
+  "main": "index.coffee",
+  "dependencies": {
+    "charm": "^1.0.0",
+    "ttys": "^0.0.3",
+    "keypress": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VelkyVenik/coffescript.git"
+  },
+  "author": "venik <venik@venik.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VelkyVenik/coffescript/issues"
+  },
+  "homepage": "https://github.com/VelkyVenik/coffescript"
+}
