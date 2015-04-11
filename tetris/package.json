@@ -1,0 +1,23 @@
+{
+  "name": "tetris",
+  "version": "0.0.1",
+  "description": "Simple Tetris implementation in Coffee Script",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:VelkyVenik/coffescript.git"
+  },
+  "author": "venik <venik@venik.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VelkyVenik/coffescript/issues"
+  },
+  "homepage": "https://github.com/VelkyVenik/coffescript",
+  "dependencies": {
+    "charm": "^1.0.0",
+    "keypress": "^0.2.1"
+  }
+}
