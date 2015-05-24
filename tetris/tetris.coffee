@@ -30,5 +30,8 @@ io.registerInputCallback 'left', moveLeft
 io.registerInputCallback 'right', moveRigh
 
 c = new canvas.Canvas
-c.init 9,15
+c.init 9, 15
 c.print()
+
+block = [2, 2, 2]
+c.printBlock 5, block

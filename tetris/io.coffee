@@ -2,7 +2,6 @@ charm = require('charm')(process);
 keypress = require 'keypress'
 
 
-
 defaultPosition =
   x: 1
   y: 20
@@ -39,7 +38,7 @@ exports.printXY = (x, y, ch, color) ->
     .foreground color
     .position x, y
     .write ch
-#    .position defaultPosition[x], defaultPosition[y]
+    .position defaultPosition['x'], defaultPosition['y']
 
 exports.printTableFrame = (x, y, width, height) ->
   charm
@@ -67,7 +66,7 @@ exports.printTableFrame = (x, y, width, height) ->
     .position x+width+1, y+height+1
     .write tableData['bottom-right']
 
-    .position 1,20
+    .position defaultPosition['x'], defaultPosition['y']
 
   # charm
   #   .foreground 'blue'
